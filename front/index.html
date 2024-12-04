@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear Material o Combo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="form-container">
+        <h2>Crear Material o Combo</h2>
+        <form id="materialForm">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="sku">SKU</label>
+            <input type="text" id="sku" name="sku" required>
+
+            <label for="ean">EAN</label>
+            <input type="text" id="ean" name="ean" required>
+
+            <label for="descripcion">Descripción</label>
+            <input type="text" id="descripcion" name="descripcion" required>
+
+            <label for="foto">Foto URL</label>
+            <input type="text" id="foto" name="foto">
+
+            <label for="tipo">Tipo</label>
+            <select id="tipo" name="tipo" required>
+                <option value="todos">Todos</option>
+                <option value="todos_menos">Todos menos</option>
+            </select>
+
+            <label for="esCombo">
+                <input type="checkbox" id="esCombo" name="esCombo">
+                ¿Crear Combo?
+            </label>
+
+            <div id="materialesContainer" style="display: none;">
+                <h4>Materiales del Combo</h4>
+                <div class="material">
+                    <label>Material ID:</label>
+                  
+                </div>
+                <button type="button" id="agregarMaterial">Agregar otro material</button>
+            </div>
+
+            <button type="submit">Guardar</button>
+        </form>
+    </div>
+    <div id="clientes-container" class="clientes-container"></div>
+    <div id="materiales-container"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

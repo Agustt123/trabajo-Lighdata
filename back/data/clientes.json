@@ -1,0 +1,95 @@
+{
+  "clientes": [
+    {
+      "id": 1,
+      "nombre": "Cliente A",
+      "ecommerces": [
+        { "id": 1, "tipo_ecommerce": 0, "url": "https://tienda1-cliente1.com" },
+        { "id": 2, "tipo_ecommerce": 1, "url": "https://tienda2-cliente1.com" }
+      ]
+    },
+    {
+      "id": 2,
+      "nombre": "Cliente B",
+      "ecommerces": [
+        { "id": 3, "tipo_ecommerce": 2, "url": "https://tienda1-cliente2.com" }
+      ]
+    },
+    {
+      "id": 3,
+      "nombre": "Cliente C",
+      "ecommerces": [
+        { "id": 4, "tipo_ecommerce": 3, "url": "https://tienda1-cliente3.com" },
+        { "id": 5, "tipo_ecommerce": 4, "url": "https://tienda2-cliente3.com" },
+        { "id": 6, "tipo_ecommerce": 5, "url": "https://tienda3-cliente3.com" }
+      ]
+    },
+    {
+      "id": 4,
+      "nombre": "Cliente D",
+      "ecommerces": [
+        { "id": 7, "tipo_ecommerce": 6, "url": "https://tienda1-cliente4.com" }
+      ]
+    },
+    {
+      "id": 5,
+      "nombre": "Cliente E",
+      "ecommerces": [
+        { "id": 8, "tipo_ecommerce": 7, "url": "https://tienda1-cliente5.com" },
+        { "id": 9, "tipo_ecommerce": 8, "url": "https://tienda2-cliente5.com" }
+      ]
+    },
+    {
+      "id": 6,
+      "nombre": "Cliente F",
+      "ecommerces": [
+        { "id": 10, "tipo_ecommerce": 9, "url": "https://tienda1-cliente6.com" }
+      ]
+    },
+    {
+      "id": 7,
+      "nombre": "Cliente G",
+      "ecommerces": []
+    },
+    {
+      "id": 8,
+      "nombre": "Cliente H",
+      "ecommerces": []
+    },
+    {
+      "id": 9,
+      "nombre": "Cliente I",
+      "ecommerces": []
+    },
+    {
+      "id": 10,
+      "nombre": "Cliente J",
+      "ecommerces": []
+    },
+    {
+      "id": 11,
+      "nombre": "Cliente K",
+      "ecommerces": []
+    },
+    {
+      "id": 12,
+      "nombre": "Cliente L",
+      "ecommerces": []
+    },
+    {
+      "id": 13,
+      "nombre": "Cliente M",
+      "ecommerces": []
+    },
+    {
+      "id": 14,
+      "nombre": "Cliente N",
+      "ecommerces": []
+    },
+    {
+      "id": 15,
+      "nombre": "Cliente O",
+      "ecommerces": []
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "clientes": [
+    {
+      "didcliente": 1,
+      "ecommerces": [
+        {
+          "tienda": 1,
+          "sku": "SKU12345",
+          "ean": "1234567890123",
+          "link": "https://www.tienda1.com/producto/sku12345",
+          "actualizastock": false
+        },
+        {
+          "tienda": 2,
+          "sku": "SKU12345",
+          "ean": "1234567890123",
+          "link": "https://www.tienda2.com/producto/sku12345",
+          "actualizastock": true
+        }
+      ]
+    },
+    {
+      "didcliente": 2,
+      "ecommerces": [
+        {
+          "tienda": 3,
+          "sku": "SKU67890",
+          "ean": "9876543210987",
+          "link": "https://www.tienda3.com/producto/sku67890",
+          "actualizastock": false
+        }
+      ]
+    }
+  ],
+  "sku": "SKU12345",
+  "ean": "1234567890123",
+  "combo": false,
+  "foto": "https://example.com/foto.jpg",
+  "descripcion": "Descripción del producto",
+  "combo_items": [
+    {
+      "didmaterial": 101,
+      "cantidad": 2
+    },
+    {
+      "didmaterial": 102,
+      "cantidad": 1
+    }
+  ]
+}
